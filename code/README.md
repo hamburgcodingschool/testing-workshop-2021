@@ -1,3 +1,9 @@
-code folder is used to share your lessons with the students. How you organise this folder is up to you.
+# Install dependencies
+Install Jest and other dependencies with the command `npm install`
 
-You can delete this file.
+# Run tests
+To run the tests, use the command `npm test`
+
+# Install Selenium
+
+https://www.selenium.dev/selenium/docs/api/javascript/index.html
