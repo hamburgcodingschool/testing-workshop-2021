@@ -94,7 +94,7 @@ module.exports = { multiply }
 
 
 
-
+/*
 const readline = require("readline");
 const rl = readline.createInterface({
     input: process.stdin,
@@ -118,3 +118,4 @@ rl.question(" Second number? ", (second) => {
 });
 });
 });
+*/
