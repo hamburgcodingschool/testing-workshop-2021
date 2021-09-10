@@ -1,5 +1,5 @@
-# {{ Course Name }}
-## Full Stack Course - {{ Start Date }}
+# Testing in JavaScript
+## 2021-09-11 / 2021-09-12
 
 ### ✏️ Homework
 
