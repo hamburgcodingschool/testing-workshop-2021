@@ -13,6 +13,8 @@ function multiply(a, b) {
 
 
 
+
+
 function multiply1(a, b) {
 	let result = 0;
 	for (i = 0; i < a; i++) {
@@ -66,56 +68,3 @@ function multiply6(a, b) {
 }
 
 module.exports = { multiply }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-const readline = require("readline");
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-rl.question(" Which multiply to use? ", (func) => {
-rl.question(" First number? ", (first) => {
-rl.question(" Second number? ", (second) => {
-	console.log("Result for multiply"+func+"("+first+","+second+"): ");
-	if (func === '1') {
-		console.log(multiply1(first, second));
-	} else if (func === '2') {
-		console.log(multiply2(first, second));
-	} else if (func === '3') {
-		console.log(multiply3(first, second));
-	} else if (func === '4') {
-		console.log(multiply4(first, second));
-	}
-	process.exit(0);
-});
-});
-});
-*/
