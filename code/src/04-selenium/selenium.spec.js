@@ -5,13 +5,13 @@ xdescribe('Hamburg Coding School page', () => {
 		let success = false;
 		let driver = await new Builder().forBrowser('chrome').build();
 		try {
-			await driver.manage().window().maximize();
-			await driver.get('https://hamburgcodingschool.com/');
-			await driver.wait(until.titleIs('Hamburg Coding School'), 1000);
-			await driver.findElement(By.className('header__contact')).click();
-			await driver.wait(until.titleIs('Hamburg Coding School | Kontakt'), 1000);
-			await driver.findElement(By.className('header__lang')).click();
-			await driver.wait(until.titleIs('Hamburg Coding School | Contact'), 1000);
+			driver.manage().window().maximize();
+			driver.get('https://hamburgcodingschool.com/');
+			await driver.wait(until.titleIs('Hamburg Coding School'), 4000);
+			driver.findElement(By.className('header__contact')).click();
+			await driver.wait(until.titleIs('Hamburg Coding School | Kontakt'), 4000);
+			driver.findElement(By.className('header__lang')).click();
+			await driver.wait(until.titleIs('Hamburg Coding School | Contact'), 4000);
 			success = true;
 		} finally {
 			await driver.quit();
