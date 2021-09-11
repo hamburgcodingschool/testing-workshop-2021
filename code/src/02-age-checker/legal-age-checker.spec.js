@@ -49,3 +49,9 @@ describe('isAllowedToDrive', () => {
         expect(getAge.mock.calls[0][0]).toBe(inputName);
     });
 });
+
+describe('isAllowedToDrink', () => {
+    it('example', () => {
+
+    });
+});
