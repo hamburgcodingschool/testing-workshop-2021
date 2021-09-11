@@ -18,7 +18,6 @@ let ageMap = [
 ];
 
 function getAge(name) {
-	// TODO: Validate name
 	return ageMap.filter(entry => entry.name === name)[0].age;
 }
 
