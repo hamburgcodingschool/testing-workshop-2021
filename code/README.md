@@ -6,6 +6,8 @@ To run the tests, use the command `npm test`. To run only the tests for a specif
 
 To watch your tests and rerun them with every change you do, use `npm test -- --watch` (or `npm test ./src/02-age-checker -- --watch` for a specific file only).
 
+To save your test results in a file, use additionally `--json --outputFile="./jest.json"`.
+
 # Install Selenium
 
 https://www.selenium.dev/selenium/docs/api/javascript/index.html

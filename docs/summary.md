@@ -16,6 +16,9 @@ How:
 - Checking the log for output
 - Provide Expected Input
 - Provide Error / Malicious Input: What happens if I put a number where a string is expected?
+- Create test entries in the database (or similar)
+- Test each functionality separately
+- Mock/Fake things that we do NOT want to test
 
 When:
 - Test it while writing the code
@@ -27,7 +30,7 @@ Who:
 - Teresa
 - Double pair of eyes: The developer who wrote it and someone else
 - Security specialist (from outside the team)
-- Small changes I test myself, bigger changes / integration other people (quality experts / QAs) should test
+- Small changes I test myself, bigger changes / integration other people (quality experts / QAs) should support me in testing it
 
 1. Closed-Box Manual Unit Testing
 

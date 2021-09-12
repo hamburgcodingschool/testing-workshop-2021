@@ -10,6 +10,7 @@ const courses = {
 
 // This function shall convert the value of the amount from the currentCurrency to the otherCurrency.
 // Tip: Convert to EUR first, then to the otherCurrency.
+// If any of the inputs makes no sense (wrong type, currency not in list, etc.), the function should return 0.00
 
 function convert(amount, currentCurrency, otherCurrency) {
 	return undefined;

@@ -1,5 +1,5 @@
 function multiply(a, b) {
-	return multiply1(a, b);
+	return multiply6(a, b);
 }
 
 
