@@ -44,6 +44,6 @@ Who:
 
 6. Functional Testing with Selenium
 
-(7. Testing theory: Test pyramid, coverage, static analysis, testing quadrants)
+7. Testing theory: Test pyramid, coverage, static analysis, testing quadrants, security
 
-(8. Bonus topics, e.g. testing randomness / timing)
+(8. Bonus topics, e.g. testing randomness / timing) (not covered)
