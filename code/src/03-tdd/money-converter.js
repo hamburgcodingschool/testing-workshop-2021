@@ -13,7 +13,12 @@ const courses = {
 // If any of the inputs makes no sense (wrong type, currency not in list, etc.), the function should return 0.00
 
 function convert(amount, currentCurrency, otherCurrency) {
-	return undefined;
+	const amountInEUR = amount / courses[currentCurrency];
+	const resultAmount = amountInEUR * courses[otherCurrency];
+	if (!resultAmount) {
+		return 0;
+	}
+	return resultAmount;
 }
 
 module.exports = { convert }
